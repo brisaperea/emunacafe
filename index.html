@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Emuná Café </title>
+    <link rel="stylesheet" href="CSS/reset.CSS">
+    <link rel="stylesheet" href="CSS/variables.CSS">
+    <link rel="stylesheet" href="CSS/layout.CSS">
+    <link rel="stylesheet" href="CSS/componentes.CSS">
+    <link rel="stylesheet" href="CSS/main.CSS">
+</head>
+    <body>
+
+        <!--Encabezado-->
+        
+        <header class="header"> 
+            <h1 class="header_title"> <em> Emuná Café </em></h1>   
+            <nav class="nav" aria-label="Navegación principal">
+                <ul class="nav_list">
+                    <a href="#inicio" class="nav__link"> Inicio </a></li>
+                    <a href="#catalogo" class="nav__link"> Catálogo </a></li>
+                    <a href="#contacto" class="nav__link"> Contacto </a></li>
+                </ul>
+            </nav>
+        </header>
+
+       <!--Portada-->
+
+        <section id="portada" class="portada">
+            <article class="portada_info">
+            </article>
+             <figure class="portada_imagen">
+                <img src="img/portada.png" alt="portada" width="800px">
+                 <figcaption> Bienvenidos a Emuná Café, un espacio donde cada taza cuenta una historia. Inspirados en la calidez, la fe y el encuentro auténtico, en Emuná combinamos sabores artesanales con un ambiente acogedor que invita a conectarse, compartir y disfrutar de lo esencial. Aquí, el café no solo se bebe, se vive.</figcaption>
+             </figure>
+        <section>
+
+        <!--Catálogo-->
+
+        <section id="catálogo" class="catálogo">  
+            <h2 class="catalogo_title"><em> Nuestro Menú </em></h2>
+            <div class="catalogo_grid">
+
+        <!--Productos 1-->
+
+               <article class="producto">
+                <figure class="producto">
+                  <img src="img/Cafe artesanal.png" alt="Espresso caliente" width="600px">
+                   <figcaption class="producto_caption"> Espresso <em>(Intenso y aromático, servido en taza pequeña)</em></figcaption>
+                </figure>
+               </article>
+
+        <!--Productos 2-->
+
+               <article class="producto">
+                <figure>
+                    <img src="img/Latte.png" alt="Latte" width="600px">
+                    <figcaption> Latte <em>(Leche vaporizada con un toque de espresso)</em></figcaption>
+                </figure>
+                
+                </article>
+
+        <!--Productos 3-->
+
+               <article class="producto">
+                <figure>
+                    <img src="img/mocachino.jpg" alt="mocachino" width="600px">
+                    <figcaption> Mocachino <em>(Bebida de café que combina espresso, leche al vapor y chocolate)</em></figcaption>
+                </figure>
+                </article>
+        
+        <!--Sugerencias-->
+             </div>
+             <aside class="Sugerencias">
+                <h3> Recomendaciones de la casa </h3>
+                <ul>
+                    <li> Capuccino con canela </li>
+                    <li> Cold Brew verano </li>
+                    <li> Tarta de frutos rojos </li>
+                </ul>
+             </aside>
+        </section>
+        
+        <!--Contacto-->
+
+        <section id="contacto" class="contacto">
+             <h2 class="contacto_title"> Contáctanos </h2> 
+             <form class="contacto_form" aria-label="Formulario de contacto">
+                 <label for="email"> Nombre: </label>
+                 <input name="nombre" type="email" required>
+                 <label for="mensaje">Mensaje:</label>
+                 <textarea name="mensaje" id="mensaje" rows="4" required></textarea>
+                 <button type="submit" class="contacto"> Enviar </button>
+            </form>  
+        </section>
+        </main>
+
+        <!--Pie de página-->
+
+        <footer class="footer">
+             <p class="footer_text"> @ 2025 Emuná Café. Todos los derechos reservados</p>
+        </footer>
+    </body>
+</html>
